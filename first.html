@@ -22,7 +22,400 @@
         <header>
             <!-- place navbar here -->
         </header>
-        <main></main>
+        <main><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haniya Bridal - Premium Bridal Wear</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+        
+        :root {
+            --primary: #f3e8e8;
+            --secondary: #d4a5a5;
+            --dark: #3d3d3d;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--primary);
+        }
+        
+        .heading-font {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .carousel-item {
+            transition: transform 0.6s ease-in-out;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-[#f3e8e8]">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div class="flex items-center py-4 px-2">
+                        <span class="heading-font text-3xl text-[#d4a5a5]">Haniya Bridal</span>
+                    </div>
+                    <div class="hidden md:flex items-center space-x-1">
+                        <a href="#" class="py-4 px-2 text-gray-700 font-semibold hover:text-[#d4a5a5] border-b-4 border-[#d4a5a5]">Home</a>
+                        <a href="#" class="py-4 px-2 text-gray-500 font-semibold hover:text-[#d4a5a5] transition duration-300">Products</a>
+                        <a href="#" class="py-4 px-2 text-gray-500 font-semibold hover:text-[#d4a5a5] transition duration-300">About</a>
+                        <a href="#" class="py-4 px-2 text-gray-500 font-semibold hover:text-[#d4a5a5] transition duration-300">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-3">
+                    <a href="#" class="py-2 px-2 text-gray-500 hover:text-[#d4a5a5]">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <a href="#" class="py-2 px-2 text-gray-500 hover:text-[#d4a5a5]">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <a href="#" class="py-2 px-2 text-gray-500 hover:text-[#d4a5a5] relative">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="absolute -top-1 -right-1 bg-[#d4a5a5] text-white text-xs w-4 h-4 flex items-center justify-center rounded-full">3</span>
+                    </a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <i class="fas fa-bars text-gray-500 text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel Section -->
+    <div class="relative max-w-7xl mx-auto mt-8 overflow-hidden rounded-lg shadow-xl">
+        <div class="relative h-96 carousel-container overflow-hidden">
+            <!-- Carousel Items -->
+            <div class="carousel-item absolute top-0 left-0 w-full h-full transition-opacity duration-1000">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/61aaf49d-e4e5-4461-a451-f5b8f2ab1264.png" alt="Beautiful Haniya Bridal sharara collection with intricate embroidery and lace detailing" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                    <div class="text-center px-4">
+                        <h2 class="heading-font text-4xl md:text-6xl text-white mb-4">Premium Bridal Wear</h2>
+                        <p class="text-xl text-white mb-8">Exquisite designs for your special day</p>
+                        <button class="bg-[#d4a5a5] hover:bg-[#c99595] text-white font-bold py-3 px-8 rounded-full transition duration-300">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-item absolute top-0 left-0 w-full h-full opacity-0">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/22ecb68b-2efc-4c26-a259-0b9b064ec83b.png" alt="Premium Haniya Bridal sharara in gold and red with heavy embroidery work" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                    <div class="text-center px-4">
+                        <h2 class="heading-font text-4xl md:text-6xl text-white mb-4">Sharara Collection</h2>
+                        <p class="text-xl text-white mb-8">Traditional elegance with modern flair</p>
+                        <button class="bg-[#d4a5a5] hover:bg-[#c99595] text-white font-bold py-3 px-8 rounded-full transition duration-300">View Collection</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-item absolute top-0 left-0 w-full h-full opacity-0">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8599cf15-68df-41ca-9764-7420cd3bb141.png" alt="Elegant Haniya Bridal mexci dresses with modern cuts and traditional embroidery" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                    <div class="text-center px-4">
+                        <h2 class="heading-font text-4xl md:text-6xl text-white mb-4">Mexci Collection</h2>
+                        <p class="text-xl text-white mb-8">Contemporary designs for modern brides</p>
+                        <button class="bg-[#d4a5a5] hover:bg-[#c99595] text-white font-bold py-3 px-8 rounded-full transition duration-300">Explore Designs</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Carousel Controls -->
+        <button class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white bg-opacity-70 text-gray-800 p-2 rounded-full shadow-md hover:bg-opacity-100 transition duration-300 carousel-prev">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white bg-opacity-70 text-gray-800 p-2 rounded-full shadow-md hover:bg-opacity-100 transition duration-300 carousel-next">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        
+        <!-- Carousel Indicators -->
+        <div class="absolute bottom-4 left-0 right-0 flex justify-center space-x-2">
+            <button class="w-3 h-3 rounded-full bg-white bg-opacity-70 carousel-indicator"></button>
+            <button class="w-3 h-3 rounded-full bg-white bg-opacity-30 carousel-indicator"></button>
+            <button class="w-3 h-3 rounded-full bg-white bg-opacity-30 carousel-indicator"></button>
+        </div>
+    </div>
+
+    <!-- Featured Collections Section -->
+    <section class="max-w-7xl mx-auto py-16 px-4">
+        <h2 class="heading-font text-3xl md:text-4xl text-center text-gray-800 mb-12">Our Collections</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Sharara Collection Card -->
+            <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                <div class="relative overflow-hidden h-64">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/59d4b0db-568e-4fed-9459-24ba084089b1.png" alt="Haniya Bridal premium sharara in rich fabrics with zari embroidery" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+                    <div class="absolute top-4 right-4 bg-[#d4a5a5] text-white px-3 py-1 rounded-full text-xs font-semibold">New</div>
+                </div>
+                <div class="p-6">
+                    <h3 class="heading-font text-xl text-gray-800 mb-2">Royal Red Sharara</h3>
+                    <p class="text-gray-600 mb-4">Traditional sharara with modern cuts and elegant embroidery work.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg font-semibold text-[#d4a5a5]">Rs. 25,000</span>
+                        <button class="text-gray-700 hover:text-[#d4a5a5] transition duration-300">
+                            <i class="fas fa-shopping-bag"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Mexci Collection Card -->
+            <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                <div class="relative overflow-hidden h-64">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e252903e-a469-4f08-8c1d-2ea3a82f3044.png" alt="Haniya Bridal exclusive mexci design with intricate handwork and embellishments" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+                    <div class="absolute top-4 right-4 bg-[#d4a5a5] text-white px-3 py-1 rounded-full text-xs font-semibold">Bestseller</div>
+                </div>
+                <div class="p-6">
+                    <h3 class="heading-font text-xl text-gray-800 mb-2">Navy Blue Mexci</h3>
+                    <p class="text-gray-600 mb-4">Contemporary mexci design with heavy thread work and bead embellishments.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg font-semibold text-[#d4a5a5]">Rs. 30,000</span>
+                        <button class="text-gray-700 hover:text-[#d4a5a5] transition duration-300">
+                            <i class="fas fa-shopping-bag"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Exclusive Collection Card -->
+            <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                <div class="relative overflow-hidden h-64">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c3495e68-b64c-40d3-b4bf-20e0596ef5f0.png" alt="Haniya Bridal signature mexci design combining traditional and modern elements" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="heading-font text-xl text-gray-800 mb-2">Royal Maroon Lehenga</h3>
+                    <p class="text-gray-600 mb-4">Exclusive bridal lehenga with intricate zari work and premium fabrics.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg font-semibold text-[#d4a5a5]">Rs. 45,000</span>
+                        <button class="text-gray-700 hover:text-[#d4a5a5] transition duration-300">
+                            <i class="fas fa-shopping-bag"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-12">
+            <button class="border-2 border-[#d4a5a5] text-[#d4a5a5] hover:bg-[#d4a5a5] hover:text-white font-bold py-3 px-8 rounded-full transition duration-300">View All Collections</button>
+        </div>
+    </section>
+
+    <!-- Payment Methods Section -->
+    <section class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="heading-font text-3xl md:text-4xl text-center text-gray-800 mb-12">Payment Options</h2>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="flex flex-col items-center">
+                    <div class="bg-gray-100 p-6 rounded-full mb-4">
+                        <i class="fas fa-credit-card text-4xl text-[#d4a5a5]"></i>
+                    </div>
+                    <h3 class="heading-font text-lg text-gray-800">Credit Card</h3>
+                    <p class="text-gray-600 text-sm text-center">Pay with Visa, Mastercard or American Express</p>
+                </div>
+                
+                <div class="flex flex-col items-center">
+                    <div class="bg-gray-100 p-6 rounded-full mb-4">
+                        <i class="fas fa-mobile-alt text-4xl text-[#d4a5a5]"></i>
+                    </div>
+                    <h3 class="heading-font text-lg text-gray-800">EasyPaisa/JazzCash</h3>
+                    <p class="text-gray-600 text-sm text-center">Convenient mobile payments</p>
+                </div>
+                
+                <div class="flex flex-col items-center">
+                    <div class="bg-gray-100 p-6 rounded-full mb-4">
+                        <i class="fas fa-university text-4xl text-[#d4a5a5]"></i>
+                    </div>
+                    <h3 class="heading-font text-lg text-gray-800">Bank Transfer</h3>
+                    <p class="text-gray-600 text-sm text-center">Direct bank transfers accepted</p>
+                </div>
+                
+                <div class="flex flex-col items-center">
+                    <div class="bg-gray-100 p-6 rounded-full mb-4">
+                        <i class="fas fa-money-bill-wave text-4xl text-[#d4a5a5]"></i>
+                    </div>
+                    <h3 class="heading-font text-lg text-gray-800">Cash on Delivery</h3>
+                    <p class="text-gray-600 text-sm text-center">Pay when you receive your order</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-[#3d3d3d] text-white pt-12 pb-6">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="heading-font text-xl mb-4">Haniya Bridal</h3>
+                    <p class="text-gray-400">Premium bridal wear with traditional craftsmanship and contemporary designs.</p>
+                </div>
+                
+                <div>
+                    <h3 class="heading-font text-xl mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Products</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="heading-font text-xl mb-4">Contact Us</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Fashion Street, Karachi</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-phone"></i>
+                            <span>+92 300 1234567</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@haniyabridal.com</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="heading-font text-xl mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="bg-[#d4a5a5] hover:bg-[#c99595] text-white p-2 rounded-full transition duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="bg-[#d4a5a5] hover:bg-[#c99595] text-white p-2 rounded-full transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="bg-[#d4a5a5] hover:bg-[#c99595] text-white p-2 rounded-full transition duration-300">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-6 text-center text-gray-400">
+                <p>© 2023 Haniya Bridal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Carousel Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.querySelector('.carousel-container');
+            const items = document.querySelectorAll('.carousel-item');
+            const prevBtn = document.querySelector('.carousel-prev');
+            const nextBtn = document.querySelector('.carousel-next');
+            const indicators = document.querySelectorAll('.carousel-indicator');
+            
+            let currentIndex = 0;
+            const totalItems = items.length;
+            
+            // Show first item
+            items[currentIndex].classList.remove('opacity-0');
+            
+            function showItem(index) {
+                // Hide all items
+                items.forEach(item => {
+                    item.classList.add('opacity-0');
+                });
+                
+                // Show selected item
+                items[index].classList.remove('opacity-0');
+                
+                // Update indicators
+                indicators.forEach((indicator, i) => {
+                    if (i === index) {
+                        indicator.classList.remove('bg-opacity-30');
+                        indicator.classList.add('bg-opacity-70');
+                    } else {
+                        indicator.classList.remove('bg-opacity-70');
+                        indicator.classList.add('bg-opacity-30');
+                    }
+                });
+            }
+            
+            function nextItem() {
+                currentIndex = (currentIndex + 1) % totalItems;
+                showItem(currentIndex);
+            }
+            
+            function prevItem() {
+                currentIndex = (currentIndex - 1 + totalItems) % totalItems;
+                showItem(currentIndex);
+            }
+            
+            // Auto slide every 5 seconds
+            let slideInterval = setInterval(nextItem, 5000);
+            
+            // Pause on hover
+            container.addEventListener('mouseenter', () => {
+                clearInterval(slideInterval);
+            });
+            
+            container.addEventListener('mouseleave', () => {
+                slideInterval = setInterval(nextItem, 5000);
+            });
+            
+            // Button controls
+            nextBtn.addEventListener('click', () => {
+                nextItem();
+                clearInterval(slideInterval);
+                slideInterval = setInterval(nextItem, 5000);
+            });
+            
+            prevBtn.addEventListener('click', () => {
+                prevItem();
+                clearInterval(slideInterval);
+                slideInterval = setInterval(nextItem, 5000);
+            });
+            
+            // Indicator controls
+            indicators.forEach((indicator, index) => {
+                indicator.addEventListener('click', () => {
+                    currentIndex = index;
+                    showItem(currentIndex);
+                    clearInterval(slideInterval);
+                    slideInterval = setInterval(nextItem, 5000);
+                });
+            });
+            
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const navLinks = document.querySelector('.hidden.md\\:flex.space-x-1');
+            
+            mobileMenuButton.addEventListener('click', function() {
+                navLinks.classList.toggle('hidden');
+                navLinks.classList.toggle('flex');
+                navLinks.classList.toggle('flex-col');
+                navLinks.classList.toggle('absolute');
+                navLinks.classList.toggle('left-0');
+                navLinks.classList.toggle('right-0');
+                navLinks.classList.toggle('top-20');
+                navLinks.classList.toggle('bg-white');
+                navLinks.classList.toggle('w-full');
+                navLinks.classList.toggle('z-50');
+                navLinks.classList.toggle('p-4');
+            });
+        });
+    </script>
+</body>
+</html>
+</main>
         <footer>
             <!-- place footer here -->
         </footer>
